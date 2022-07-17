@@ -1,0 +1,142 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.principal{
+    width: 1024px;
+    margin: 20px auto
+}
+
+.cabeçalho{
+    height: 50px;
+    background-color: black;
+    position: relative;
+
+}
+
+.logotipo{
+    width: 109px;
+    height: 100%;
+    margin-left: 80px;
+}
+
+.banner{
+    width: 1024px;
+}
+
+nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+nav ul{
+    margin-right: 15px;
+
+}
+
+nav li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 20px;
+}
+
+nav a{
+    color: lightgray;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 12px;
+    transition: color 0.3s linear; 
+}
+
+nav a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.conteudo{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.conteudo h1{
+    font-size: 40px;
+}
+
+.conteudo p{
+    font-size: 25px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.cards img{
+    height: 500px;
+}
+
+.card{
+    margin-right: 22px;
+}
+
+.card h2{
+    text-align: center;
+}
+
+.info{
+    background-image: url(7ac9b493-ae69-431a-923d-3cb8a79d7e63_what_is_netflix_3_en.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    padding: 100px;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.info h2{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: normal; 
+}
+
+.info p{
+    width: 70%;
+    font-size: 20px;
+    line-height: 2;
+}
+
+.assine{
+    text-align: center;
+    margin-bottom: 100px 
+}
+
+.assine p{
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.rodape{
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+}
+
+.rodape p{
+    color: rgba(255, 255, 255, 0.911);
+    text-align: center;
+    padding-top: 40px;
+}
+
+
+
+
+
