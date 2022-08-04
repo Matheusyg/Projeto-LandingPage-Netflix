@@ -6,7 +6,7 @@
 
 - Definição da netflix
 - Séries do catálogo
-- Duvidas sobrea a utilização
+- Duvidas sobre a utilização
 
 # Tecnologias Usadas
 
